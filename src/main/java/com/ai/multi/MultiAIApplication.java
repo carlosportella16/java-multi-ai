@@ -1,13 +1,13 @@
-package com.ai.openai;
+package com.ai.multi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class OpenaiApplication {
+public class MultiAIApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OpenaiApplication.class, args);
+		SpringApplication.run(MultiAIApplication.class, args);
 	}
 
 }

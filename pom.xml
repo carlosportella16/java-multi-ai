@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ai</groupId>
-	<artifactId>openai</artifactId>
+	<artifactId>multi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>openai</name>
-	<description>Java Demo with Open AI</description>
+	<name>multi</name>
+	<description>Java Demo with Multi AI flavors</description>
 	<url/>
 	<licenses>
 		<license/>
