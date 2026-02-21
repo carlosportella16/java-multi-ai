@@ -16,7 +16,7 @@ public class ChatOpenAiController {
         this.chatClient = chatClientBuilder.build();
     }
 
-    @GetMapping("/chat")
+    @GetMapping("/chat/openai")
     public String chat(@RequestParam("message") String message) {
         return chatClient.prompt(message).call().content();
     }
